@@ -1,0 +1,4 @@
+tensorboardX==2.5.1
+tqdm==4.64.0
+huggingface-hub==0.27.1
+diffusers==0.16.1

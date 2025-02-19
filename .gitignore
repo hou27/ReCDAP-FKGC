@@ -1,0 +1,11 @@
+.vscode/
+__MACOSX
+state/
+model/
+log/
+NELL/
+wiki/
+FB15K/
+__pycache__/
+tmp/
+codebackup/
