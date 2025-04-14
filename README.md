@@ -46,13 +46,13 @@ huggingface-hub==0.27.1
 
 ### Processed Dataset
 
-- [Processed Dataset](#)
+- [Processed Dataset](https://drive.google.com/drive/folders/1QQPn8-lENxaJE-ebrcAJ7-HwqPegGCRw?usp=sharing)
 
 > **Note:** Download and extract the datasets to the root folder of the project.
 
 ### Checkpoints are available for download here:
 
-- [Learned Checkpoint](#)
+- [Learned Checkpoint](https://drive.google.com/file/d/1aodH-64mTR29s3Rbge1YDXy1RwGUaC7g/view?usp=sharing)
 
 Note: Not yet available because of anonymous rule.
 
