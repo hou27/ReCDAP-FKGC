@@ -22,17 +22,6 @@ class DataLoader(object):
             self.num_tris = len(self.eval_triples)
             self.curr_tri_idx = 0
 
-    #     # 전체 배치 수 계산
-    #     if step == 'train':
-    #         # 한 에폭당 모든 관계를 한 번씩 사용할 때 배치 수 계산
-    #         self.total_batches = math.ceil(self.num_rels / self.bs)
-    #     else:
-    #         # 평가 단계의 경우 전체 트리플을 배치 크기로 나눔
-    #         self.total_batches = math.ceil(self.num_tris / self.bs)
-
-    # def __len__(self):
-    #     return self.total_batches
-
     def next_one(self):
         # shift curr_rel_idx to 0 after one circle of all relations
         if self.curr_rel_idx % self.num_rels == 0:
